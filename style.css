@@ -4,6 +4,8 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #ff758f;
+  transform: scale(2);
+  
 }
 
 .valentines-day-card {
@@ -179,9 +181,11 @@ body {
 }
 
 .hover {
-  color: white;
+  color: #800f2f;
   font-family: 'Pacifico', cursive;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .text:hover span {
@@ -189,7 +193,7 @@ body {
 }
 
 .text:hover:before {
-  content: "Hey [Name], \A Even though our celebration won’t be the same this year. \A You’re still the same person I care about, \A and I’m still excited to celebrate Valentine’s with you!";
+  content: "Hi [Name], \A Even though our celebration won’t be the same this year. \A You’re still the same person I care about, and I’m \A still excited celebrating Valentine’s with you!";
   font-size: 16px;
   white-space: pre-line;
   top: 250px;
@@ -202,7 +206,7 @@ body {
 }
 
 
-img{
+.dubu{
   position: absolute;
   width: 80px;
   left: 160px;
@@ -215,4 +219,10 @@ img{
   bottom: -0px;
   right: 0;
   color: #e79f9f;
+}
+
+.ticket{
+  width: 80px;
+  position: relative;
+  left: 10px;
 }
