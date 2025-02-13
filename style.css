@@ -226,3 +226,68 @@ body {
   position: relative;
   left: 10px;
 }
+
+.cute-button {
+  background-color: rgb(255, 143, 163); /* Soft pink */
+  border: none;
+  color: #800f2f;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 100px; /* Rounded corners for a cute look */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Slight shadow */
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 150px; /* Fixed width */
+  height: 50px; /* Fixed height */
+}
+
+.cute-button:hover {
+  background-color: rgb(255, 143, 163); /* Darker pink on hover */
+  transform: scale(1.1); /* Slightly grow on hover */
+}
+
+.cute-button:active {
+  background-color: rgb(255, 143, 163); /* Even darker pink when clicked */
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(0.98); /* Slightly shrink on click */
+}
+
+#pre-loader-index{
+  background: #ff758f url(hey.gif) no-repeat center center;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+
+#pre-loader-yes{
+  background: #ff758f url(celebrate.gif) no-repeat center center;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.index-question{
+  text-align: center;
+}
+
+.nervous{
+    width: 80px;
+}
+
+
+#pre-loader-no{
+  background: #ff758f url(no.gif) no-repeat center center;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;  
+  position: fixed;
+  z-index: 100;
+}
