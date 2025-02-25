@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Myrtle Valentine Card</title>
+    <title>Valentine Card</title>
     <link rel="stylesheet" href="style.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');</style>
     </script>
 </head>
 <body>
-    <div id="pre-loader-index"></div>
+    <div id="pre-loader-index">
+    </div>
+    
     <div class="index-question"> 
         <img src="nervous.gif" alt="description of gif" class="nervous">
         <p class="hover">Hey, I was wondering if you'd like to be my Valentine this year?</p>
         <button class="cute-button" id = "yesButton" onclick="nextPage()">yes</button>
         <button class="cute-button" id = "noButton" onclick="moveButton()">no</button>
     </div>
+    
         <script>
             function nextPage() {
                         window.location.href = "yes.html";
                     }
+            
                     function moveButton() {
                         window.location.href = "no.html";
                     }
 
                     var loader = document.getElementById("pre-loader-index");
-
+            
                     window.addEventListener("load", function (){
                     setTimeout(function(){
                     loader.style.display= "none";
                     }, 2000);
-
-                    
-
-
+                        
                     });
-            </script>
+         </script>
 
 </body>
 </html>
